@@ -1,0 +1,11 @@
+/*
+ * MicroZed DTS file header for sdcard/mmc partition 2 boot.
+ */
+
+/dts-v1/;
+/include/ "microzed.dtsi"
+/ {
+	chosen {
+		bootargs = "console=ttyPS0,115200 root=/dev/mmcblk0p2 rw earlyprintk rootwait";
+	} ;
+} ;

@@ -1,0 +1,16 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Thu Jan 15 13:42:19 2015
+| Host         : ITMODZ1NB07319M running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconstant_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_xlconstant_2_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 1)) to current project options.
+

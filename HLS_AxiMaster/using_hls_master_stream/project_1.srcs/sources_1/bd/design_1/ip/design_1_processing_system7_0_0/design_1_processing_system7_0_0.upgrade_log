@@ -1,0 +1,98 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.1 (lin64) Build 1215546 Mon Apr 27 19:07:21 MDT 2015
+| Date         : Mon May 25 15:26:03 2015
+| Host         : user-VirtualBox running 64-bit Ubuntu 14.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5) to (Rev. 1)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+Added parameter PCW_USE_AXI_NONSECURE with value 0
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Thu Jan 15 13:42:16 2015
+| Host         : ITMODZ1NB07319M running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5) to current project options.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Fri Nov 28 12:36:49 2014
+| Host         : ITMODZ1NB07319M running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_processing_system7_0_0 from xilinx.com:ip:processing_system7:5.4 (Rev. 1) to xilinx.com:ip:processing_system7:5.5
+
+2. Warnings
+-----------
+
+WARNING: 1. The custom time stamp unit(PTP) signals will be exposed to the Programmable Logic(PL),  
+  even when the Ethernet is routed through the MIO. For more details 
+,  please refer Zynq Technical Reference Manual (UG 585) CH No. 16.4 IEEE 1588 Time Stamping. 
+ This change enables additional optional functionality for designs with Ethernet on MIO. 
+ No changes are required for existing designs. 
+  2. Updated the JTAG interface from master to slave mode. Based on Zynq Technical Reference Manual, 
+  PS boot mode supports 4 master boot mode and 2 Slave JTAG Boot mode. Prior versions of Zynq PS7 
+  IP had PL JTAG in master mode incorrectly. The JTAG port TDO will have a buffer (OBUFT) 
+  instantiated as part of the Processing System7 IP. This change only affects designs which use PL JTAG 
+  through EMIO interface. For More details, refer chapter no.6 of Zynq Technical Reference Manual 
+  (UG 585) - Boot and Configuration. 
+
+
+3. Interface Information
+------------------------
+
+Detected external interface differences while upgrading IP 'design_1_processing_system7_0_0'.
+
+
+-upgraded interface 'PJTAG' (xilinx.com:interface:jtag:2.0) differs from original interface xilinx.com:interface:jtag:1.0
+
+4. Upgrade messages
+-------------------
+
+Added parameter PCW_TRACE_INTERNAL_WIDTH with value 32
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="example.cpp" path="/home/user/utils/HLS_AxiMaster/axi_master_and_stream/axi_master/example.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="example_test.cpp" path="/home/user/utils/HLS_AxiMaster/axi_master_and_stream/axi_master/example_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

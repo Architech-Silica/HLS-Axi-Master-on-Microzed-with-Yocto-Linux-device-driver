@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]/home/user/utils/HLS_AxiMaster/using_hls_master_stream/project_1.sdk/fsbl/Debug/fsbl.elf
+	/home/user/utils/HLS_AxiMaster/using_hls_master_stream/project_1.runs/impl_1/design_1_wrapper.bit
+	/home/user/yocto/build/tmp/deploy/images/microzed/u-boot.elf
+}

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:07:21 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Mon May 25 15:31:18 2015
+# Process ID: 4413
+# Log file: /home/user/utils/HLS_AxiMaster/using_hls_master_stream/project_1.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/user/utils/HLS_AxiMaster/using_hls_master_stream/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

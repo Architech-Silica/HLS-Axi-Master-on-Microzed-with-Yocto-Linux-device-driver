@@ -1,0 +1,75 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="ap_bus" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="a"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="a"/>
+<option name="core" value="AXI4M"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="stream_in"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="STREAM">
+<option name="variable" positionalBoolean="4" value="stream_in"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="ap_none" positionalBoolean="mode" value=""/>
+<option name="register" positionalBoolean="register" value=""/>
+<option name="port" positionalBoolean="4" value="byte_wroffset"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="byte_wroffset"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle MYAXIL&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="ap_none" positionalBoolean="mode" value=""/>
+<option name="register" positionalBoolean="register" value=""/>
+<option name="port" positionalBoolean="4" value="ctrl_reg"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="ctrl_reg"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle MYAXIL&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="ap_ovld" positionalBoolean="mode" value=""/>
+<option name="register" positionalBoolean="register" value=""/>
+<option name="port" positionalBoolean="4" value="status_reg"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="status_reg"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle MYAXIL&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="ap_ovld" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="interrupt"/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

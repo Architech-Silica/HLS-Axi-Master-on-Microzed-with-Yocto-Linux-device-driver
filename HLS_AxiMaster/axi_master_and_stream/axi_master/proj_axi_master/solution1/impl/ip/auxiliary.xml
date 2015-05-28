@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="example" xd:componentRef="example" xd:initiationInterval="264" xd:clockPeriod="4.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="*(a)" xd:originalName="a" xd:direction="out" xd:interfaceRef="M_AXI_A" xd:busTypeRef="aximm" xd:dataWidth="32" xd:bufferDirection="out"/>
+  <xd:arg xd:name="stream_in[]" xd:originalName="stream_in" xd:direction="in" xd:interfaceRef="stream_in" xd:busTypeRef="axis" xd:arraySize="128" xd:dataWidth="32"/>
+  <xd:arg xd:name="byte_wroffset" xd:originalName="byte_wroffset" xd:direction="in" xd:interfaceRef="S_AXI_MYAXIL" xd:busTypeRef="axilite" xd:offset="0x14" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="ctrl_reg" xd:originalName="ctrl_reg" xd:direction="in" xd:interfaceRef="S_AXI_MYAXIL" xd:busTypeRef="axilite" xd:offset="0x1C" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="*(status_reg)" xd:originalName="status_reg" xd:direction="out" xd:interfaceRef="S_AXI_MYAXIL" xd:busTypeRef="axilite" xd:offset="0x24" xd:handshakeRef="ap_vld" xd:dataWidth="32"/>
+  <xd:arg xd:name="*(interrupt)" xd:originalName="interrupt" xd:direction="out" xd:interfaceRef="interrupt_r" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="1"/>
+  <xd:latencyEstimates xd:best-case="3" xd:worst-case="263" xd:average-case="133"/>
+  <xd:resourceEstimates xd:LUT="95" xd:FF="226" xd:BRAM="1" xd:DSP="0"/>
+</xd:acceleratorMap>

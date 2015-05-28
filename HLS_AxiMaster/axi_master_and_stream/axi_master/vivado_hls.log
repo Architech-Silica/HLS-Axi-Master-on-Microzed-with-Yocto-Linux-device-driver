@@ -1,0 +1,26 @@
+@I [LIC-101] Checked out feature [HLS]
+@I [HLS-10] Running '/opt/Xilinx/Vivado_HLS/2015.1/bin/unwrapped/lnx64.o/vivado_hls'
+            for user 'user' on host 'user-VirtualBox' (Linux_x86_64 version 3.16.0-37-generic) on Mon May 25 15:21:18 CEST 2015
+            in directory '/home/user/utils/HLS_AxiMaster/axi_master_and_stream/axi_master'
+@I [HLS-10] Opening project '/home/user/utils/HLS_AxiMaster/axi_master_and_stream/axi_master/proj_axi_master'.
+@I [HLS-10] Opening solution '/home/user/utils/HLS_AxiMaster/axi_master_and_stream/axi_master/proj_axi_master/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 4ns.
+@I [HLS-10] Setting target device to 'xc7z010clg400-1'
+@I [IMPL-8] Exporting RTL as an IP in IP-XACT.
+
+****** Vivado v2015.1 (64-bit)
+  **** SW Build 1215546 on Mon Apr 27 19:07:21 MDT 2015
+  **** IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.1/data/ip'.
+WARNING: [IP_Flow 19-4322] Undefined parameter 'PARAM_VALUE.C_M_AXI_A_ENABLE_USER_PORTS' used in XPATH expression '(spirit:decode(id('PARAM_VALUE.C_M_AXI_A_ENABLE_USER_PORTS')) = 1)'.
+WARNING: [IP_Flow 19-4322] Undefined parameter 'PARAM_VALUE.C_M_AXI_A_ENABLE_USER_PORTS' used in XPATH expression '(spirit:decode(id('PARAM_VALUE.C_M_AXI_A_ENABLE_USER_PORTS')) = 1)'.
+WARNING: [IP_Flow 19-4322] Undefined parameter 'PARAM_VALUE.C_M_AXI_A_ENABLE_USER_PORTS' used in XPATH expression '(spirit:decode(id('PARAM_VALUE.C_M_AXI_A_ENABLE_USER_PORTS')) = 1)'.
+WARNING: [IP_Flow 19-4322] Undefined parameter 'PARAM_VALUE.C_M_AXI_A_ENABLE_USER_PORTS' used in XPATH expression '(spirit:decode(id('PARAM_VALUE.C_M_AXI_A_ENABLE_USER_PORTS')) = 1)'.
+WARNING: [IP_Flow 19-4322] Undefined parameter 'PARAM_VALUE.C_M_AXI_A_ENABLE_USER_PORTS' used in XPATH expression '(spirit:decode(id('PARAM_VALUE.C_M_AXI_A_ENABLE_USER_PORTS')) = 1)'.
+INFO: [Common 17-206] Exiting Vivado at Mon May 25 15:21:31 2015...
+@I [LIC-101] Checked in feature [HLS]

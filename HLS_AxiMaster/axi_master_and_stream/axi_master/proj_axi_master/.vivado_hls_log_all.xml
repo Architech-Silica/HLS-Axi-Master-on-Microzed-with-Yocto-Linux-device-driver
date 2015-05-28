@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [RTGEN-101] Register 'count' is power-on initialization." projectName="proj_axi_master" solutionName="solution1" date="2015-05-25T15:20:18.146+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Register 'int_pending' is power-on initialization." projectName="proj_axi_master" solutionName="solution1" date="2015-05-25T15:20:18.138+0200" type="Warning"/>
+        <logs message="@W [SYN-107] Renaming port name 'example/interrupt' to 'example/interrupt_r' to avoid the conflict with HDL keywords or other object names." projectName="proj_axi_master" solutionName="solution1" date="2015-05-25T15:20:18.029+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'status_reg' is deprecated. Please use the interface directive to specify the AXI interface." projectName="proj_axi_master" solutionName="solution1" date="2015-05-25T15:20:16.977+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'ctrl_reg' is deprecated. Please use the interface directive to specify the AXI interface." projectName="proj_axi_master" solutionName="solution1" date="2015-05-25T15:20:16.865+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'byte_wroffset' is deprecated. Please use the interface directive to specify the AXI interface." projectName="proj_axi_master" solutionName="solution1" date="2015-05-25T15:20:16.860+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4M' on port 'a' is deprecated. Please use the interface directive to specify the AXI interface." projectName="proj_axi_master" solutionName="solution1" date="2015-05-25T15:20:16.851+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

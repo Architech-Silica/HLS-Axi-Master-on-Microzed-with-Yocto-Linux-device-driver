@@ -1,0 +1,6 @@
+17:51:49 INFO  : Processing command line option -hwspec /home/user/utils/HLS_AxiMaster/using_hls_master_stream/project_1.sdk/design_1_wrapper.hdf.
+17:51:54 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:51:55 INFO  : XSDB server has started successfully.
+18:06:39 INFO  : Invoking Bootgen: bootgen -image boot.bif -o /home/user/utils/HLS_AxiMaster/using_hls_master_stream/BOOT.bin
+18:06:39 INFO  : Creating new bif file /home/user/utils/HLS_AxiMaster/using_hls_master_stream/boot.bif
+18:06:40 INFO  : Bootgen command execution is done.
